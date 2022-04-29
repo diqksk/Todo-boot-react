@@ -31,6 +31,8 @@ public class BoardServiceImpl implements BoardService{
 
         List<Board> board = boardPage.get().collect(Collectors.toList());
 
+
+
         return null;
     }
 }
